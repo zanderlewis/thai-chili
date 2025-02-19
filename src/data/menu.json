@@ -5,77 +5,77 @@
             "items": [
                 {
                     "name": "A1. Spring Roll (2)",
-                    "price": "3.50",
+                    "price": "$3.50",
                     "description": "Vegetable fried spring rolls with sweet and sour sauce."
                 },
                 {
                     "name": "A2. Cheese Roll (2)",
-                    "price": "4.50",
+                    "price": "$4.50",
                     "description": "Cream Cheese and Rolled w/ Spring roll wrapper. Then Deep fried. Served with sweet and sour sauce."
                 },
                 {
                     "name": "A3. Veggie Potsticker (5)",
-                    "price": "5.50",
+                    "price": "$5.50",
                     "description": "Fried Potsticker (gyoza). Served with sweet garlic soy sauce."
                 },
                 {
                     "name": "A4. Fried Chicken Dumpling (4)",
-                    "price": "6.95",
+                    "price": "$6.95",
                     "description": "Served w/ Sweet Garlic Soy Sauce"
                 },
                 {
                     "name": "A5. Butterfly Shrimp (5)",
-                    "price": "6.95",
+                    "price": "$6.95",
                     "description": ""
                 },
                 {
                     "name": "A6. Chicken Satay (4)",
-                    "price": "7.50",
+                    "price": "$7.50",
                     "description": "Grilled Marinated Chicken served w/ Peanut sauce. (GF)"
                 },
                 {
                     "name": "A7. Steamed CHK Dumpling (4)",
-                    "price": "6.95",
+                    "price": "$6.95",
                     "description": "(4 pcs.)"
                 },
                 {
                     "name": "A8. Steamed VEG Dumpling",
-                    "price": "5.95",
+                    "price": "$5.95",
                     "description": "Topped w/ Panang Curry sauce (GF)"
                 },
                 {
                     "name": "A9. Shrimp Dumpling (5)",
-                    "price": "6.95",
+                    "price": "$6.95",
                     "description": "Steamed. Then Served w/ Panang Curry Sauce. (GF)"
                 },
                 {
                     "name": "A10. Edamame",
-                    "price": "4.95",
+                    "price": "$4.95",
                     "description": "Steamed Soy Bean Pod. Sprinkled w/ salt. (GF)"
                 },
                 {
                     "name": "A11. Golden Tofu",
-                    "price": "5.50",
+                    "price": "$5.50",
                     "description": "Fried Tofu Served with sweet and sour dipping sauce sprinkled with crushed peanuts. (GF)"
                 },
                 {
                     "name": "A12. Roti Canai",
-                    "price": "5.95",
+                    "price": "$5.95",
                     "description": "Indian Pancake Served with potato curry sauce"
                 },
                 {
                     "name": "A13. Basil Roll (2)",
-                    "price": "5.50",
+                    "price": "$5.50",
                     "description": "Basil leaves, lettuce and rice noodle wrapped in rice paper served with plum sauce. (GF)"
                 },
                 {
                     "name": "Spicy Zaab Wings (4)",
-                    "price": "6.95",
+                    "price": "$6.95",
                     "description": "Spicy chicken wings served with homemade Thai chili sauce."
                 },
                 {
                     "name": "Cheese Wonton (5)",
-                    "price": "5.50",
+                    "price": "$5.50",
                     "description": "Wonton and Cheese."
                 }
             ]
@@ -85,27 +85,27 @@
             "items": [
                 {
                     "name": "S1. Tom Yum Seafood",
-                    "price": "9.50",
+                    "price": "$9.50",
                     "description": "Lemon grass, lime leaves and ginger, Mushroom, Scallion, Thai style hot & sour soup. Seafood Included Shrimp, Calamari, Mussel, Scallop. (GF)"
                 },
                 {
                     "name": "S2. Tom-Yum Soup",
-                    "price": "4.75",
+                    "price": "$4.75",
                     "description": ""
                 },
                 {
                     "name": "S3. Coconut Soup",
-                    "price": "4.75",
+                    "price": "$4.75",
                     "description": "Coconut based soup, topped w/ mushroom and scallion. (Gf)"
                 },
                 {
                     "name": "S4. Vegetable Soup",
-                    "price": "4.00",
+                    "price": "$4.00",
                     "description": "Mixed vegetables in clear broth."
                 },
                 {
                     "name": "S5. Wonton Soup",
-                    "price": "4.25",
+                    "price": "$4.25",
                     "description": "Wontons in clear broth. *Contains pork and shrimp."
                 }
             ]
@@ -115,17 +115,17 @@
             "items": [
                 {
                     "name": "S6. Nam Sod",
-                    "price": "7.95",
+                    "price": "$7.95",
                     "description": "Traditional Thai style of blending minced pork, ginger, onion and peanut, touch of lime juice. (GF)"
                 },
                 {
                     "name": "S8. Larb Chicken",
-                    "price": "8.95",
+                    "price": "$8.95",
                     "description": "Minced chicken with spicy powder, onion and lime juice. (GF)"
                 },
                 {
                     "name": "S9. Bangkok Salad",
-                    "price": "5.95",
+                    "price": "$5.95",
                     "description": "Fresh Vegetables topped with fried tofu and peanut sauce. (GF)"
                 }
             ]
@@ -135,27 +135,27 @@
             "items": [
                 {
                     "name": "Rice",
-                    "price": "3.00",
+                    "price": "$3.00",
                     "description": ""
                 },
                 {
                     "name": "Steamed Veg.",
-                    "price": "3.50",
+                    "price": "$3.50",
                     "description": ""
                 },
                 {
                     "name": "French Fries",
-                    "price": "3.50",
+                    "price": "$3.50",
                     "description": ""
                 },
                 {
                     "name": "Steam noodle",
-                    "price": "3.25",
+                    "price": "$3.25",
                     "description": ""
                 },
                 {
                     "name": "Sauce",
-                    "price": "1.00",
+                    "price": "$1.00",
                     "description": ""
                 }
             ]
@@ -165,107 +165,107 @@
             "items": [
                 {
                     "name": "Lunch- Pad Ka Pow",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Garlic Sauce",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Fresh ginger",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Cashew Nut",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Rama",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Pad Prew whan",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Mix Vegetables",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Pad Thai",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Pad woon sen",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Pad See-Ew",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Pad Kee Mao",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Lo Mein",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Basil Fried Rice",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Thai Fried Rice",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Panang Curry",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Yellow Curry",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Green Curry",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Red Curry",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Masaman Curry",
-                    "price": "9.95",
+                    "price": "$9.95",
                     "description": ""
                 },
                 {
                     "name": "Lunch- Pineapple Fried Rice",
-                    "price": "11.95",
+                    "price": "$11.95",
                     "description": "Rice stir-fry with eggs, onions, pineapple and curry powder, topped with Cashew nut and scallion."
                 },
                 {
                     "name": "Lunch- Eggplant",
-                    "price": "11.95",
+                    "price": "$11.95",
                     "description": "Stir-fry eggplant with onions, bell peppers, and basil leaves."
                 }
             ]
@@ -275,47 +275,47 @@
             "items": [
                 {
                     "name": "E1. Pad Ka-Pow",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Stir-fry onion, bell pepper and basil leaves w/ spicy thai sauce"
                 },
                 {
                     "name": "E2. Garlic Sauce",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Stir-fry Protein w/ garlic and black pepper, served w/ Steamed Broccoli on the bottom."
                 },
                 {
                     "name": "E3. Fresh Ginger",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Stir-fry fresh ginger, onion, carrot and mushroom in a light ginger sauce"
                 },
                 {
                     "name": "E4. Cashew Nut",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Tossed w/ onion, carrot and bell pepper in spicy garlic sauce"
                 },
                 {
                     "name": "E5. Rama",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Served on Bed of Branched Broccoli, topped w/ warmed Peanut sauce and sprinkled w/ Crushed peanut"
                 },
                 {
                     "name": "E6. Pad Prew-Whan",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Thai styles sweet and sour w/ onion, pineapple, bell pepper, carrot and cucumber"
                 },
                 {
                     "name": "E9. Teriyaki",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Grilled chicken topped w/ teriyaki sauce and sesame seed and served w/ steamed vegetables"
                 },
                 {
                     "name": "E10. Mix Vegetables",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": ""
                 },
                 {
                     "name": "E11. Spicy Eggplant",
-                    "price": "14.95",
+                    "price": "$14.95",
                     "description": "Stir-Fry eggplant with onions, bell peppers, and basil leaves."
                 }
             ]
@@ -325,42 +325,42 @@
             "items": [
                 {
                     "name": "N1. Pad Thai",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Thin rice noodle stir-fry with egg, bean sprouts, scallion and crushed peanut. (GF)"
                 },
                 {
                     "name": "N2. Pad Woon Sen",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Stir-fry onion, egg, mushroom, cabbage, carrot, scallion with crystal glass noodle in light soy sauce."
                 },
                 {
                     "name": "N3. Pad See-ew",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Big rice noodle sauteed in sweet light brown sauce with egg, broccoli and carrot."
                 },
                 {
                     "name": "N4. Pad Kee Mao",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Big rice noodle sauteed in spicy basil sauce with bell pepper, carrot, cabbage, onion and basil leaves."
                 },
                 {
                     "name": "N5. Lo Mein",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "Stir-fry egg noodle with mix vegetables in light soy sauce."
                 },
                 {
                     "name": "N6. Basil Fried Rice",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "with onion, bell pepper, carrot and basil leaves."
                 },
                 {
                     "name": "N7. Thai Fried Rice",
-                    "price": "12.95",
+                    "price": "$12.95",
                     "description": "with onion, scallion and egg."
                 },
                 {
                     "name": "N. Pineapple Fried Rice",
-                    "price": "14.95",
+                    "price": "$14.95",
                     "description": "Rice stir-fry with eggs, onions, pineapple and curry powder, topped with Cashew nut and scallion."
                 }
             ]
@@ -370,27 +370,27 @@
             "items": [
                 {
                     "name": "C1. Panang Curry",
-                    "price": "13.95",
+                    "price": "$13.95",
                     "description": "Mild Flavor with basil leaves, broccoli and bell pepper. (GF)"
                 },
                 {
                     "name": "C2. Yellow Curry",
-                    "price": "13.95",
+                    "price": "$13.95",
                     "description": "Indian yellow curry flavor with onion, carrot and potato. (GF)"
                 },
                 {
                     "name": "C3. Green Curry",
-                    "price": "13.95",
+                    "price": "$13.95",
                     "description": "A Traditional Thai curry with bamboo shoot, green bean, bell pepper and basil leaves. (GF)"
                 },
                 {
                     "name": "C4. Red Curry",
-                    "price": "13.95",
+                    "price": "$13.95",
                     "description": "A Traditional Thai curry with bamboo shoot, green bean, bell pepper and basil leaves. (GF)"
                 },
                 {
                     "name": "C5. Masaman",
-                    "price": "13.95",
+                    "price": "$13.95",
                     "description": "Light peanut flavor a sweet curry with onion, potato and topped w/ avocado and roasted cashew nut. (GF)"
                 }
             ]
@@ -400,22 +400,22 @@
             "items": [
                 {
                     "name": "CS1. Spicy Catfish",
-                    "price": "14.95",
+                    "price": "$14.95",
                     "description": "Crispy fried catfish filet sauteed in red curry sauce with young pepper corn, bell pepper, green bean and basil leaves."
                 },
                 {
                     "name": "CS3. Mango Shrimp",
-                    "price": "16.95",
+                    "price": "$16.95",
                     "description": "Sauteed with sweet mango chucks, bell pepper in chef's special mango sauce."
                 },
                 {
                     "name": "CS4. Salmon Panang Curry",
-                    "price": "17.95",
+                    "price": "$17.95",
                     "description": "Pan fried salmon filet with panang curry sauce. (GF)"
                 },
                 {
                     "name": "CS5. Crispy Chicken",
-                    "price": "15.95",
+                    "price": "$15.95",
                     "description": "Fried chicken, pineapple, bell pepper and cucumber with Thai sweet chill sauce."
                 }
             ]
@@ -425,22 +425,22 @@
             "items": [
                 {
                     "name": "K1. Chicken Nuggets w. Fries",
-                    "price": "5.95",
+                    "price": "$5.95",
                     "description": ""
                 },
                 {
                     "name": "K2. Kids Fried Rice",
-                    "price": "4.95",
+                    "price": "$4.95",
                     "description": ""
                 },
                 {
                     "name": "K3. Kids Lo Mein",
-                    "price": "4.95",
+                    "price": "$4.95",
                     "description": ""
                 },
                 {
                     "name": "K4. Fish Stick w. Fries",
-                    "price": "6.95",
+                    "price": "$6.95",
                     "description": ""
                 }
             ]
@@ -450,12 +450,12 @@
             "items": [
                 {
                     "name": "D1. Mango Sticky Rice",
-                    "price": "5.95",
+                    "price": "$5.95",
                     "description": ""
                 },
                 {
                     "name": "Taro Bua Loy",
-                    "price": "5.50",
+                    "price": "$5.50",
                     "description": "Soft and chewy taro-flavored rice dumpling served in warm, sweet Coconut milk, a traditional Thai dessert with a rice and creamy taste."
                 }
             ]
@@ -465,27 +465,27 @@
             "items": [
                 {
                     "name": "Soft Drink",
-                    "price": "2.50",
+                    "price": "$2.50",
                     "description": ""
                 },
                 {
                     "name": "Ice Tea",
-                    "price": "2.50",
+                    "price": "$2.50",
                     "description": ""
                 },
                 {
                     "name": "Thai Ice Tea",
-                    "price": "4.50",
+                    "price": "$4.50",
                     "description": "No Refills"
                 },
                 {
                     "name": "Thai Ice Coffee",
-                    "price": "4.50",
+                    "price": "$4.50",
                     "description": "No Refills"
                 },
                 {
                     "name": "Bottle Water",
-                    "price": "2.00",
+                    "price": "$2.00",
                     "description": ""
                 }
             ]
