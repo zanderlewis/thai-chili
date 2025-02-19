@@ -8,8 +8,6 @@ on:
 jobs:
   fetch-menu:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.PAT }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -25,23 +23,12 @@ jobs:
       - name: Run menu.py script
         run: python menu.py
 
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b update-menu
           git add src/data/menu.json
           git commit -m 'Daily menu update'
-
-      - name: Push changes to new branch
-        run: git push -u origin update-menu
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
-        with:
-          token: ${{ secrets.PAT }}
-          commit-message: 'Daily menu update'
-          branch: update-menu
-          title: 'Daily menu update'
-          body: 'Automated daily menu update'
-          labels: 'automated update'
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
