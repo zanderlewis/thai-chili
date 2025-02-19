@@ -34,7 +34,7 @@ jobs:
           fi
 
       - name: Commit and push changes
-        if: success()
+        if: success() && steps.check-for-changes.outputs.changes_detected == 'true'
         run: |
           git commit -m 'Daily menu update'
           git push origin main
