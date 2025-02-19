@@ -1,5 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import full from '../assets/full.png';
+import food1 from '../assets/food1.png';
+import Image from 'astro/components/Image.astro';
 ---
 
 <Layout title="Home">
@@ -7,9 +10,11 @@ import Layout from '../layouts/Layout.astro';
     <!-- Hero Section -->
     <section class="relative h-[80vh] flex items-center justify-center">
       <div class="absolute inset-0 z-0">
-        <img
-          src="https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?auto=format&fit=crop&q=80"
+        <Image
+          src={full}
           alt="Thai Food"
+          width={full.width}
+          height={full.height}
           class="w-full h-full object-cover"
         />
         <div class="absolute inset-0 bg-black/50"></div>
@@ -21,7 +26,7 @@ import Layout from '../layouts/Layout.astro';
         <p class="text-xl md:text-2xl mb-8">Experience authentic Thai cuisine in Asheville</p>
         <a
           href="/menu"
-          class="bg-thai-red text-white px-8 py-3 rounded-full text-lg hover:bg-red-700 transition-colors inline-block"
+          class="bg-red-800 text-white px-8 py-3 rounded-full text-lg hover:bg-red-700 transition-colors inline-block"
         >
           View Our Menu
         </a>
@@ -31,33 +36,24 @@ import Layout from '../layouts/Layout.astro';
     <!-- Features Section -->
     <section class="py-20 bg-gray-50">
       <div class="container mx-auto px-4">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div class="text-center">
-            <div class="w-16 h-16 mx-auto mb-4 bg-thai-red rounded-full flex items-center justify-center">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
-              </svg>
-            </div>
-            <h3 class="text-xl font-display font-bold mb-2">Fresh Ingredients</h3>
-            <p class="text-gray-600">We use only the freshest ingredients to create authentic Thai flavors.</p>
-          </div>
-          <div class="text-center">
-            <div class="w-16 h-16 mx-auto mb-4 bg-thai-red rounded-full flex items-center justify-center">
+            <div class="w-16 h-16 mx-auto mb-4 bg-red-800 rounded-full flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
             </div>
-            <h3 class="text-xl font-display font-bold mb-2">Authentic Recipes</h3>
-            <p class="text-gray-600">Traditional Thai recipes with a modern fusion twist.</p>
+            <h3 class="text-xl font-display font-bold mb-2">Food</h3>
+            <p class="text-gray-600">Thai recipes with modifications for America</p>
           </div>
           <div class="text-center">
-            <div class="w-16 h-16 mx-auto mb-4 bg-thai-red rounded-full flex items-center justify-center">
+            <div class="w-16 h-16 mx-auto mb-4 bg-red-800 rounded-full flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
               </svg>
             </div>
-            <h3 class="text-xl font-display font-bold mb-2">Downtown Location</h3>
-            <p class="text-gray-600">Conveniently located in the heart of downtown Asheville.</p>
+            <h3 class="text-xl font-display font-bold mb-2">Location</h3>
+            <p class="text-gray-600">Located on Hendersonville Road</p>
           </div>
         </div>
       </div>
@@ -68,8 +64,10 @@ import Layout from '../layouts/Layout.astro';
       <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <img
-              src="https://images.unsplash.com/photo-1553163147-622ab57be1c7?auto=format&fit=crop&q=80"
+            <Image
+              src={food1}
+              width={food1.width}
+              height={food1.height}
               alt="Restaurant Interior"
               class="rounded-lg shadow-xl"
             />
@@ -77,16 +75,22 @@ import Layout from '../layouts/Layout.astro';
           <div>
             <h2 class="text-3xl md:text-4xl font-display font-bold mb-6">Welcome to Thai Chili</h2>
             <p class="text-gray-600 mb-6">
-              Located in the heart of downtown Asheville, Thai Chili Asian Bistro brings you authentic Thai cuisine with a modern twist. Our chefs combine traditional recipes with innovative techniques to create dishes that delight and inspire.
+              Come and enjoy real Thai food in Asheville!
             </p>
             <p class="text-gray-600 mb-8">
-              Whether you're craving classic Pad Thai, spicy curries, or unique fusion dishes, our menu offers something for everyone. We take pride in using fresh, high-quality ingredients and preparing each dish with care and attention to detail.
+              We are vegan and vegetarian friendly. We also offer gluten-free options.
             </p>
             <a
-              href="tel:+18282555030"
-              class="bg-thai-red text-white px-8 py-3 rounded-full text-lg hover:bg-red-700 transition-colors inline-block"
+              href="tel:8285054224"
+              class="bg-red-800 text-white px-8 py-3 rounded-full text-lg hover:bg-red-700 transition-colors inline-block"
             >
-              Call for Reservations
+              Call to Order
+            </a>
+            <a
+              href="https://thaichiliasianbistronc.kwickmenu.com/"
+              class="bg-red-800 text-white px-8 py-3 rounded-full text-lg hover:bg-red-700 transition-colors inline-block"
+            >
+              Order Online
             </a>
           </div>
         </div>

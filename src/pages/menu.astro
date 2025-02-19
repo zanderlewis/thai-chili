@@ -1,47 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
-const menuCategories = [
-  {
-    name: "Appetizers",
-    items: [
-      { name: "Spring Rolls", price: "7.95", description: "Crispy rolls filled with vegetables, served with sweet chili sauce" },
-      { name: "Crab Rangoon", price: "8.95", description: "Cream cheese and crab meat in crispy wonton wrapper" },
-      { name: "Satay Chicken", price: "9.95", description: "Grilled marinated chicken skewers with peanut sauce" }
-    ]
-  },
-  {
-    name: "Soups",
-    items: [
-      { name: "Tom Yum", price: "6.95", description: "Hot and sour soup with mushrooms, lemongrass, and lime leaves" },
-      { name: "Tom Kha", price: "6.95", description: "Coconut soup with galangal, mushrooms, and lime juice" }
-    ]
-  },
-  {
-    name: "Curry Dishes",
-    items: [
-      { name: "Red Curry", price: "16.95", description: "Red curry paste in coconut milk with bamboo shoots and basil" },
-      { name: "Green Curry", price: "16.95", description: "Green curry paste in coconut milk with vegetables" },
-      { name: "Panang Curry", price: "17.95", description: "Thick red curry with lime leaves and ground peanuts" }
-    ]
-  },
-  {
-    name: "Noodles & Rice",
-    items: [
-      { name: "Pad Thai", price: "15.95", description: "Rice noodles with egg, bean sprouts, and ground peanuts" },
-      { name: "Drunken Noodles", price: "15.95", description: "Wide rice noodles with basil, vegetables in spicy sauce" },
-      { name: "Thai Fried Rice", price: "14.95", description: "Wok-fried rice with egg, onions, and your choice of protein" }
-    ]
-  },
-  {
-    name: "House Specialties",
-    items: [
-      { name: "Crispy Duck", price: "26.95", description: "Half duck crispy fried, served with special sauce" },
-      { name: "Seafood Delight", price: "24.95", description: "Combination of seafood in chef's special sauce" },
-      { name: "Bangkok Beef", price: "19.95", description: "Stir-fried beef with vegetables in house special sauce" }
-    ]
-  }
-];
+import menu from '../data/menu.json';
 ---
 
 <Layout title="Menu">
@@ -52,11 +11,22 @@ const menuCategories = [
         Discover our authentic Thai dishes made with fresh ingredients and traditional recipes. All entrées can be prepared with your choice of chicken, beef, tofu, or shrimp.
       </p>
 
-      <div class="space-y-12">
-        {menuCategories.map(category => (
-          <div class="bg-white rounded-lg shadow-md p-8">
-            <h2 class="text-2xl font-display font-bold text-thai-red mb-6">{category.name}</h2>
-            <div class="grid gap-6">
+      <div class="text-center mb-12">
+        <a
+          href="https://thaichiliasianbistronc.kwickmenu.com/"
+          class="bg-red-800 text-white px-8 py-3 rounded-full text-lg hover:bg-red-700 transition-colors inline-block"
+        >
+          Order Online
+        </a>
+      </div>
+
+      <div class="space-y-12 p-4 bg-gray-400 rounded-lg">
+        {menu.categories.map(category => (
+          <details class="bg-white rounded-lg shadow-md p-8">
+            <summary class="text-2xl font-display font-bold text-red-800 mb-6 cursor-pointer">
+              {category.category}
+            </summary>
+            <div class="grid gap-6 mt-4">
               {category.items.map(item => (
                 <div class="flex justify-between items-start">
                   <div class="flex-1">
@@ -69,15 +39,17 @@ const menuCategories = [
                 </div>
               ))}
             </div>
-          </div>
+          </details>
         ))}
       </div>
 
       <div class="mt-12 text-center">
-        <p class="text-gray-600 mb-4">* Spice levels can be adjusted to your preference</p>
-        <p class="text-gray-600">
+        <p class="text-gray-600 mb-2">Spice levels can be adjusted to your preference</p>
+        <p class="text-gray-600 mb-2">
           Consuming raw or undercooked meats, poultry, seafood, shellfish, or eggs may increase your risk of foodborne illness
         </p>
+        <p class="text-gray-600">
+          Please inform your server of any food allergies before ordering
       </div>
     </div>
   </div>
