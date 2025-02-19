@@ -23,12 +23,22 @@ jobs:
       - name: Run menu.py script
         run: python menu.py
 
-      - name: Commit and push changes
+      - name: Create and push branch
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b daily-menu-update
           git add src/data/menu.json
           git commit -m 'Daily menu update'
-          git push
+          git push --set-upstream origin daily-menu-update
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'Daily menu update'
+          branch: daily-menu-update
+          title: 'Daily menu update'
+          body: 'Automated daily menu update'
